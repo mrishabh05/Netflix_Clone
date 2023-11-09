@@ -1,0 +1,66 @@
+body{
+    background: #000;
+  }
+  
+  
+  nav{
+    z-index:10;
+  }
+  
+  section{
+        border-bottom: 8px solid #222;
+  }
+  
+  div h1{
+      font-size: 3.125rem
+    }
+  
+  .logo{
+    max-width:120px;
+  }
+  
+  .content{
+    max-width: 700px;
+  }
+  
+  @media (max-width:600px){
+    div h1{
+      font-size: 2rem;
+    }
+    .logo{
+      max-width:100px;
+    }
+    .content{
+    width: 100%;
+      padding: 0 10px;
+  }
+  }
+  
+  
+  .video-tv img{
+    position:relative;
+    z-index:1;
+  }
+  
+  
+  .video-tv video{
+    position:absolute;
+    top:21%;
+    left:13.2%;
+    max-width:72.7%;
+  
+  
+  }
+  
+  .video-tev img{
+    position:relative;
+    z-index:1;
+  }
+  
+  .video-tev video{
+      position:absolute;
+  
+        top:11%;
+    left:18%;
+    max-width:64%;
+  }
